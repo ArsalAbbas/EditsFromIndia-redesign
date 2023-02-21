@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+
+body {
+  font-family: 'Open Sans' sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my-navbar{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+}
+.my-color{
+  background: #EE2B53;
+  border: #EE2B53;
+  
+}
+.my-fontcolor{
+color: #EE2B53;
+  
+}
+.my-fontcolor-2{
+  color: #8D8D8D;
+  font-size: small;
+}
+.my-fontcolor-3{
+  color: #ffffff;
+}
+/* .align-center{
+  vertical-align: middle;
+} */
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #b91133;
+  border-color: #EE2B53; /*set the color you want here*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.longCards{
+  max-width: 540px;
+  background: #FFFFFF;
+box-shadow: 0px 2.85949px 40px rgba(0, 0, 0, 0.1);
+border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.longCards:hover{
+  outline: 2px solid #EE2B53;
+  /* margin: -2px; */
 }
-
-.App-link {
-  color: #61dafb;
+.btn-outline-danger{
+  color: #EE2B53;
+  border-color: transparent;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.active:active{
+  color: #EE2B53;
+}
+ body {
+  cursor: url('assets/Cursor.png'), auto;
+  
 }
